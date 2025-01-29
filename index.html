@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+          },
+          fontFamily: {
+            dancing: ['Dancing Script'],
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <nav class="bg-zinc-800 p-4">
+      <ul class="flex justify-around text-white font-bold text-lg">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">ABOUT</a></li>
+      </ul>
+    </nav>
+
+    <main class="bg-gray-200">
+      <h1 class="text-7xl text-center font-bold text-clifford font-dancing">
+        TEST
+      </h1>
+      <h1 class="text-7xl text-[#deca92] text-center font-bold mb-8">
+        ART GALLERY
+      </h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-8">
+        <div>
+          <img
+            src="https://picsum.photos/400"
+            class="w-full h-auto rounded-lg"
+            alt="Gallery image 1"
+          />
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400"
+            class="w-full h-auto rounded-lg"
+            alt="Gallery image 2"
+          />
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400"
+            class="w-full h-auto rounded-lg"
+            alt="Gallery image 3"
+          />
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400"
+            class="w-full h-auto rounded-lg"
+            alt="Gallery image 3"
+          />
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400"
+            class="w-full h-auto rounded-lg"
+            alt="Gallery image 3"
+          />
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400"
+            class="w-full h-auto rounded-lg"
+            alt="Gallery image 3"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
